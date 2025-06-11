@@ -27,6 +27,7 @@ jobs:
 
         - name: Run Collection
           run: |
+            mkdir -p newman
             newman run 'Inwarranty-Flow Collection CSVFile.postman_collection.json'\
               -e QA.postman_environment.json \
               -d testdata.csv \
