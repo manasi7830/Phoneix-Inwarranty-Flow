@@ -55,11 +55,12 @@ jobs:
         with: 
           server_address: smtp.gmail.com
           server_port: 465
-          username: ${{secrets.MAIL_USERNAME}}
-          password: ${{secrets.MAIL_PASSWORD}}
+          secure: true
+          username: ${{secrets.EMAIL_USERNAME}}
+          password: ${{secrets.EMAIL_PASSWORD}}
           subject: Phoneix Inwarranty Flow Test ExecutionNotification
           to: manasiavachat14@gmail.com
-          from: ${{secrets.MAIL_USERNAME}}
+          from: ${{secrets.EMAIL_USERNAME}}
           body: |
                 Hi,
                 Phoneix Inwarranty Flow tests has been executed. The Report has been published and the URL
