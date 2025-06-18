@@ -1,10 +1,10 @@
-# Postman API Automation Integraion with Github Action #
+# Postman API Automation Integration with Github Action #
 
 This repository is demonstration of POC for integrating postman tests with github actions. The Tests are written in Postman and they are executed on the VM with the help of newman and newman-reporter-htmlextra.
-Github Actions will trigger the project execution on every push to the main branch. You can also execute the project manually using using workflow_displatch. The project runs on a schedule time with the help of cron job.
+Github Actions will trigger the project execution on every push to the main branch. You can also execute the project manually using workflow_displatch. The project runs on a schedule time with the help of cron job.
 
 
-The HTML report is archieved and kept in the artifcat section for the team to download it. Along with that they can view the report directly from the github page https://manasi7830.github.io/Phoneix-Inwarranty-Flow/
+The HTML report is achieved and kept in the artifact section for the team to download it. Along with that they can view the report directly from the github page https://manasi7830.github.io/Phoneix-Inwarranty-Flow/
 The latest report is mailed to the team members using GMAIL SMTP.
 ## About Me ##
 Hi This is Manasi Avachat. You can connect with me on Linkedin-(https://www.linkedin.com/in/manasi-avachat-695a4823/)
