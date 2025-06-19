@@ -54,5 +54,6 @@ You can run the project on your local system for that:
             -e QA.postman_environment.json \
             -d testdata.csv \
             -r cli,htmlextra \
+            --reporter-htmlextra-export ./newman/index.html
  ```
 
