@@ -48,8 +48,9 @@ You can run the project on your local system for that:
 2. Install Nodejs and NPM from https://www.npmjs.com/
 3. Install Newman using command``` $ npm install -g newman ```
 4. Install Newman-reporter-htmlextra ``` $ npm install -g newman-reporter-htmlextra ```
-5. Run the newman command
-  ``` newman run 'Inwarranty-Flow Collection CSVFile.postman_collection.json' \
+5. Run the newman command 
+  ```
+ newman run 'Inwarranty-Flow Collection CSVFile.postman_collection.json' \
             -e QA.postman_environment.json \
             -d testdata.csv \
             -r cli,htmlextra \
